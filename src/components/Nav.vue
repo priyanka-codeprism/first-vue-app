@@ -1,7 +1,7 @@
 <template>
     <header>
         <h1>{{title}} </h1>
-        <Button v-show='homepage' :text='showAddTask ?"close" :"Add task" ' 
+        <Button v-show='homepage'  
         :color='showAddTask ?"red" :"green" '
         @toogle-add-task="$emit('toogle-add-task')"
         />
