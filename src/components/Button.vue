@@ -5,10 +5,7 @@
 export default{
     name:'Button',
     props:{
-        text:{
-          type: String,
-          default:'hello'
-        },
+        text:String,
         color:String,
     },
     methods:{
